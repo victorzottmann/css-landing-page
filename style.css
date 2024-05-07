@@ -10,3 +10,34 @@
   --font-size-header-info: 36px;
   --font-size-quote: 36px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: var(--clr-blue-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header__logo {
+  color: var(--clr-white-primary);
+  font-size: 24px;
+}
+
+.navbar__list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar__link {
+  color: var(--clr-white-secondary);
+  text-decoration: none;
+}
