@@ -1,0 +1,12 @@
+:root {
+  --clr-blue-primary: #3882F6;     /* Button color, call to action background color */
+  --clr-blue-secondary: #1F2937;   /* Hero and Footer background */
+  --clr-white-primary: #F9FAF8;    /* Header Logo Text, Hero Main Text */
+  --clr-white-secondary: #E5E7EB;  /* Hero Secondary Text, Header Link Text, Quote section */
+
+  --font-size-hero-main: 48px;
+  --font-size-hero-secondary: 18px;
+  --font-size-header-logo: 24px;
+  --font-size-header-info: 36px;
+  --font-size-quote: 36px;
+}
