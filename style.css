@@ -18,6 +18,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Header Section */
 
 .header {
@@ -85,4 +91,12 @@
   background-color: var(--clr-blue-primary);
   width: 120px;
   text-align: center;
+}
+
+.footer {
+  background-color: var(--clr-blue-secondary);
+  color: var(--clr-white-secondary);
+  text-align: center;
+  font-size: 14px;
+  padding: 32px;
 }
