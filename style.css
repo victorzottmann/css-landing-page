@@ -169,21 +169,23 @@ body {
 /* Action Section */
 
 .action {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--clr-blue-primary);
-  margin: 100px 180px;
-  padding: 40px 100px;
-  border-radius: 10px;
+  padding-block: 90px;
 }
 
 .action__container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-blue-primary);
+  width: min(1000px, 100% - 2rem);
+  margin-inline: auto;
+  padding: 48px 100px;
+  border-radius: 10px;
 }
 
 .action__title {
   color: var(--clr-white);
+  margin-bottom: 5px;
 }
 
 .action__text {
