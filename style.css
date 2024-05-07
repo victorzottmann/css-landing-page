@@ -1,8 +1,8 @@
 :root {
-  --clr-blue-primary: #3882F6;     /* Button color, call to action background color */
-  --clr-blue-secondary: #1F2937;   /* Hero and Footer background */
-  --clr-white-primary: #F9FAF8;    /* Header Logo Text, Hero Main Text */
-  --clr-white-secondary: #E5E7EB;  /* Hero Secondary Text, Header Link Text, Quote section */
+  --clr-blue-primary: #3882F6;   /* Button color, call to action background color */
+  --clr-blue-secondary: #1F2937; /* Hero and Footer background */
+  --clr-white: #F9FAF8;          /* Header Logo Text, Hero Main Text */
+  --clr-gray: #E5E7EB;           /* Hero Secondary Text, Header Link Text, Quote section */
 
   --font-size-hero-main: 48px;
   --font-size-hero-secondary: 18px;
@@ -35,7 +35,7 @@ body {
 }
 
 .header__logo {
-  color: var(--clr-white-primary);
+  color: var(--clr-white);
   font-size: 18px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar__link {
-  color: var(--clr-white-secondary);
+  color: var(--clr-gray);
   text-decoration: none;
 }
 
@@ -67,14 +67,14 @@ body {
 }
 
 .hero__title {
-  color: var(--clr-white-primary);
+  color: var(--clr-white);
   font-size: 40px;
   width: 65%;
 }
 
 .hero__description {
   width: 92%;
-  color: var(--clr-white-secondary);
+  color: var(--clr-gray);
   margin-bottom: auto;
 }
 
@@ -87,7 +87,7 @@ body {
   border-radius: 10px;
   display: inline-block;
   text-decoration: none;
-  color: var(--clr-white-primary);
+  color: var(--clr-white);
   background-color: var(--clr-blue-primary);
   width: 120px;
   text-align: center;
@@ -95,7 +95,7 @@ body {
 
 .footer {
   background-color: var(--clr-blue-secondary);
-  color: var(--clr-white-secondary);
+  color: var(--clr-gray);
   text-align: center;
   font-size: 14px;
   padding: 32px;
