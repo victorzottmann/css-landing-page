@@ -10,32 +10,36 @@
 
 <body>
   <header class="header">
-    <h1 class="header__logo">Header Logo</h1>
-    <nav class="navbar">
-      <ul class="navbar__list">
-        <li class="navbar__item">
-          <a href="#" class="navbar__link">header link one</a>
-        </li>
-        <li class="navbar__item">
-          <a href="#" class="navbar__link">header link two</a>
-        </li>
-        <li class="navbar__item">
-          <a href="#" class="navbar__link">header link three</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="header__container">
+      <h1 class="header__logo">Header Logo</h1>
+      <nav class="navbar">
+        <ul role="list" class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">header link one</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">header link two</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">header link three</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero__container">
-        <h2 class="hero__title">This website is awesome</h2>
-        <p class="hero__description">
-          This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
-        </p>
-        <a href="#" class="btn">Sign Up</a>
+        <div class="hero__content">
+          <h2 class="hero__title">This website is awesome</h2>
+          <p class="hero__description">
+            This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+          </p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <img src="./img/hero-image.jpg" alt="Landscape of a green mountain during sunset surrounded by clouds" class="hero__image" />
       </div>
-      <img src="./img/hero-image.jpg" alt="Landscape of a green mountain during sunset surrounded by clouds" class="hero__image" />
     </section>
 
     <section class="info">
