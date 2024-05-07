@@ -4,11 +4,11 @@
   --clr-white: #F9FAF8;          /* Header Logo Text, Hero Main Text */
   --clr-gray: #E5E7EB;           /* Hero Secondary Text, Header Link Text, Quote section */
 
-  --font-size-hero-main: 48px;
-  --font-size-hero-secondary: 18px;
-  --font-size-header-logo: 24px;
-  --font-size-header-info: 36px;
-  --font-size-quote: 36px;
+  --fs-hero-main: 48px;
+  --fs-hero-secondary: 18px;
+  --fs-header-logo: 24px;
+  --fs-header-info: 36px;
+  --fs-quote: 36px;
 }
 
 * {
