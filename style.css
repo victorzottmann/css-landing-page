@@ -42,7 +42,7 @@ body {
 
 .header__logo {
   color: var(--clr-white);
-  font-size: 18px;
+  font-size: var(--fs-hero-secondary);
 }
 
 .navbar__list {
@@ -61,8 +61,6 @@ body {
 .hero {
   background-color: var(--clr-blue-secondary);
   padding-block: 100px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .hero__container {
@@ -79,7 +77,7 @@ body {
 
 .hero__title {
   color: var(--clr-white);
-  font-size: 40px;
+  font-size: var(--fs-hero-main);
   margin-bottom: 8px;
 }
 
@@ -108,26 +106,20 @@ body {
 
 .info {
   text-align: center;
-  padding-left: 180px;
-  padding-right: 180px;
+  width: min(1000px, 100% - 2rem);
+  margin-inline: auto;
 }
 
 .info__title {
   padding: 48px 0;
+  font-size: var(--fs-header-info);
 }
 
 .info__container {
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
-  gap: 24px;
-}
-
-.info__image {
-  border: 3px solid var(--clr-blue-primary);
-  width: 150px;
-  height: 150px;
-  border-radius: 15px;
+  gap: 40px;
 }
 
 .info__item {
@@ -137,9 +129,17 @@ body {
   gap: 8px;
 }
 
+.info__image {
+  border: 3px solid var(--clr-blue-primary);
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
 .info__text {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--clr-blue-secondary);
+  width: 150px;
 }
 
 /* Quote Section */
@@ -151,7 +151,7 @@ body {
 
 .quote__text {
   font-weight: 300;
-  font-size: 36px;
+  font-size: var(--fs-quote);
   font-style: italic;
 }
 
@@ -163,11 +163,11 @@ body {
 /* Action Section */
 
 .action {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--clr-blue-primary);
   margin: 100px 180px;
   padding: 40px 100px;
-  display: flex;
-  justify-content: space-between;
   border-radius: 10px;
 }
 
@@ -194,6 +194,6 @@ body {
   background-color: var(--clr-blue-secondary);
   color: var(--clr-gray);
   text-align: center;
-  font-size: 14px;
+  font-size: 1rem;
   padding: 32px;
 }
