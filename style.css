@@ -150,6 +150,34 @@ body {
   font-weight: 700;
 }
 
+/* Action Section */
+
+.action {
+  background-color: var(--clr-blue-primary);
+  margin: 100px 180px;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.action__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.action__title {
+  color: var(--clr-white);
+}
+
+.action__text {
+  color: var(--clr-gray);
+}
+
+.btn--action {
+  border: 2px solid var(--clr-white);
+}
+
 /* Footer */
 
 .footer {
