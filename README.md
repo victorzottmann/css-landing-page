@@ -6,6 +6,10 @@ Given a set of design guidelines, the challenge asks you to try to match the des
 
 To personalize it further with a topic I am passionate about, I chose to make the page about photography. All the photos and text added are my own.
 
+[Click here](https://victorzottmann.github.io/css-landing-page/) to see it live!
+
+## Reference layout and My Implementation
+
 For comparison, here is the reference layout followed by my implementation.
 
 ### Reference layout
@@ -13,8 +17,6 @@ For comparison, here is the reference layout followed by my implementation.
 ![reference layout](./screenshots/reference-layout.png)
 
 ### My implementation
-
-[Click here](https://victorzottmann.github.io/css-landing-page/) to see it live!
 
 ![screenshot of the first half of the landing page](./screenshots/result-1.png)
 ![screenshot of the second half of the landing page](./screenshots/result-2.png)
