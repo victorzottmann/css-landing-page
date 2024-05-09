@@ -150,7 +150,7 @@ body {
 
 .quote {
   background-color: var(--clr-gray);
-  padding-block: 60px;
+  padding-block: 80px;
 }
 
 .quote__container {
