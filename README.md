@@ -14,5 +14,7 @@ For comparison, here is the reference layout followed by my implementation.
 
 ### My implementation
 
+[Click here](https://victorzottmann.github.io/css-landing-page/) to see it live!
+
 ![screenshot of the first half of the landing page](./screenshots/result-1.png)
 ![screenshot of the second half of the landing page](./screenshots/result-2.png)
