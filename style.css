@@ -133,7 +133,6 @@ body {
 }
 
 .info__image {
-  border: 2px solid var(--clr-blue-primary);
   width: 150px;
   height: 150px;
   border-radius: 15px;
